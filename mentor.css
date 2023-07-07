@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    padding: 48px 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    gap: 8px;
+}
+
+.logo-image {
+    font-size: 35px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.nav-link button {
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
