@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    padding: 48px 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    gap: 8px;
+}
+
+.logo-image {
+    font-size: 35px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.nav-link button {
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 49px;
+    padding: 56px 92px;
+}
+
+.home-content h2 {
+    font-size: 3rem;
+    line-height: 59px;
+}
+
+.home-content h5 {
+    padding-top: 12px;
+    font-size: 21px;
+    font-weight: 10;
+}
+
+.home-image {
+    display: flex;
+    width: inherit;
+}
+
+.home-form {
+    margin-top: 21px;
+    height: 13%;
+}
+
+.home-form input {
+    height: 50%;
+    width: 33%;
+    padding: 8px 57px;
+}
+
+.home-form button {
+    background-color: #0000ff;
+    color: #ffffff;
+    height: 92%;
+    width: 33%;
+    padding: 0px 35px;
+    margin-left: 26px;
+    border-radius: 4px;
+    border: none;
+}
+
+.chart-content {
+    padding-left: 92px;
+    display: flex;
+    background-color: #f7fafb;
+    margin-top: -124px;
+}
+
+.para {
+    padding-top: 45px;
+}
+
+.para h1 {
+    font-size: 39px;
+}
+
+.para h5 {
+    line-height: 22px;
+    width: 74%;
+    font-weight: 1;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.para p {
+    padding-top: 20px;
+    color: #097049;
+}
+
+.card-container {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 56%;
+    height: 33%;
+    box-shadow: 0px 0px 5px 5px #e1eff4;
+}
+
+.card-content {
+    padding: 16px;
+    line-height: 27px;
+}
+
+.card-profile {
+    display: flex;
+    padding-top: 10px;
+    gap: 12px;
+}
+
+.card-details {
+    display: block;
+}
+
+.card-details p {
+    font-size: 10px;
+    line-height: 22px;
+    margin-top: -9px;
+}
+
+.card-container .card-content p {
+    color: #000000;
+}
+
+.newsletter-container {
+    background-color: #6b629b;
+    padding: 100px;
+    color: #ffffff;
+    display: flex;
+    gap: 230px;
+}
+
+.newsletter-content {
+    width: 36%;
+}
+
+.newsletter-heading {
+    font-size: 21px;
+}
+
+.newsletter-para {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.newsletter-form {
+    width: 300px;
+}
+
+.newsletter-form input {
+    height: 30px;
+    width: 100%;
+    padding: 10px 38px;
+    border-radius: 6px;
+    border: none;
+}
+
+.newsletter-form button {
+    background-color: #0000ff;
+    margin-top: 10px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+}
+.footer-container{
+    background-color: #23055b;
+    padding: 100px 300px 50px 100px; 
+    color: #ffffff;
+}
+.footer-content{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.footer-tel{
+    padding-top: 5px;
+}
+.fylo-contact{
+    display: flex;
+    gap: 12px;
+}
+.fylo-email{
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+.footer-about , .footer-contact , .footer-icon{
+    line-height: 32px;
+}
+.footer-icon{
+    margin-left: 20px;
+}

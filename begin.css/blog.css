@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navbar-container {
+    height: 78px;
+    background-color: #1e1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    padding-left: 340px;
+    ;
+
+    .btn {
+        border: none;
+        background-color: inherit;
+        padding: 28px 23px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: #e0e0e0;
+        color: #000000;
+    }
+
+    .default {
+        color: #b1abab;
+    }
+}
+
+.home-container {
+    background-color: #d2cccc;
+}
+
+.home-image {
+    height: 273px;
+    display: flex;
+    margin-left: 21%;
+    border-left: 15px solid #ffffff;
+}
+
+.home-card {
+    width: 44%;
+    padding: 17px;
+    margin-top: 10px;
+    height: 270px;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 27%;
+    background-color: #ffffff;
+    line-height: 23px;
+}
+
+.home-card h5 {
+    font-weight: 400;
+}
+
+.home-card h6 {
+    font-weight: 600;
+}
+
+.home-card h3 {
+    font-weight: 450;
+}
+
+.card-footer {
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-owner {
+    font-weight: 400;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-icons>div {
+    padding: 2px 22px;
+    font-size: 30px;
+    border: 1px solid #380750;
+}
+
+.home-products {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 352px 197px 94px 197px;
+}
+
+.product h5 {
+    width: 235px;
+    text-align: center;
+    font-weight: 400;
+}
+.footer-container{
+    background-color: #1e1d1d;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.footer-container h4,h5{
+    font-weight: 400;
+}
+.footer-container p{
+    font-size: 12px;
+}
+.footer-left{
+    width: 35%; 
+    line-height: 26px;
+    padding-top: 60px;
+}
+.footer-privacy{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-right{
+    display: flex;
+    line-height: 26px;
+    padding-top: 23px;
+    width: 65%;
+    justify-content: space-around;
+}
+.account-info{
+    gap: 3px;
+}

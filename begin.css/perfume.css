@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(241, 222, 233);
+}
+
+.row {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px !important;
+}
+
+.column2 {
+    background-color: white;
+    padding: 20px;
+}
+
+h3 {
+    color: grey;
+    letter-spacing: 5px;
+}
+
+p {
+    color: grey;
+}
+
+.price {
+    display: inline;
+    font-size: 35px;
+    color: rgb(41, 106, 66)
+}
+
+.mrp {
+    display: inline;
+    font-size: 15px;
+    align-items: center;
+}
+
+button {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgb(221, 57, 7);
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+}
